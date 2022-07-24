@@ -1,28 +1,28 @@
 <div class="content">
     <section class="section-slider container-fluid owl-carousel owl-theme p-0">
         <div class="item">
-            <img src="./public/assets/img/slide1.jpg" alt="" class="slider-img">
+            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/slide1.jpg" alt="" class="slider-img">
         </div>
         <div class="item">
-            <img src="./public/assets/img/slide2.jpg" alt="" class="slider-img">
+            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/slide2.jpg" alt="" class="slider-img">
         </div>
         <div class="item">
-            <img src="./public/assets/img/slide3.jpg" alt="" class="slider-img">
+            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/slide3.jpg" alt="" class="slider-img">
         </div>
     </section>
     <section class="section section-policy">
         <div class="container">
             <div class="policy-list">
                 <div class="policy-item">
-                    <img src="./public/assets/img/policy1.png" alt="" class="policy-img">
+                    <img src="<?php echo _WEB_ROOT;?>/public/assets/img/policy1.png" alt="" class="policy-img">
                     <p class="policy-text">Freeship toàn quốc đơn > 500k</p>
                 </div>
                 <div class="policy-item">
-                    <img src="./public/assets/img/policy2.png" alt="" class="policy-img">
+                    <img src="<?php echo _WEB_ROOT;?>/public/assets/img/policy2.png" alt="" class="policy-img">
                     <p class="policy-text">Kiểm tra hàng trước khi thanh toán</p>
                 </div>
                 <div class="policy-item">
-                    <img src="./public/assets/img/policy3.png" alt="" class="policy-img">
+                    <img src="<?php echo _WEB_ROOT;?>/public/assets/img/policy3.png" alt="" class="policy-img">
                     <p class="policy-text">Hỗ trợ đóng gói hộp miễn phí</p>
                 </div>
             </div>

@@ -252,9 +252,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="./public/assets/js/main.js"></script>
-<script src="./public/assets/js/product-details.js"></script>
-<script src="./public/assets/js/products.js"></script>
+<script src="<?php echo _WEB_ROOT;?>/public/assets/js/main.js"></script>
+<script src="<?php echo _WEB_ROOT;?>/public/assets/js/product-details.js"></script>
+<script src="<?php echo _WEB_ROOT;?>/public/assets/js/products.js"></script>
 </body>
 
 </html>

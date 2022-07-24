@@ -2,30 +2,30 @@
     <section class="section section-product-details container">
         <div class="row g-5">
             <div class="col-lg-6">
-                <div style="background-image:url('./public/assets/img/ao1.jpg');" class="product-img-main d-none d-lg-block">
+                <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao1.jpg');" class="product-img-main d-none d-lg-block">
                 </div>
                 <div class="list-img owl-carousel owl-theme">
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao1.jpg')" class="product-img active">
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao1.jpg')" class="product-img active">
                         </div>
                     </div>
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao2.jpg')" class="product-img"></div>
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao2.jpg')" class="product-img"></div>
                     </div>
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao3.jpg')" class="product-img"></div>
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao3.jpg')" class="product-img"></div>
                     </div>
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao4.jpg')" class="product-img"></div>
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao4.jpg')" class="product-img"></div>
                     </div>
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao5.jpg')" class="product-img"></div>
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg')" class="product-img"></div>
                     </div>
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao6.jpg')" class="product-img"></div>
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao6.jpg')" class="product-img"></div>
                     </div>
                     <div class="item">
-                        <div style="background-image:url('./public/assets/img/ao1.jpg')" class="product-img"></div>
+                        <div style="background-image:url('<?php echo _WEB_ROOT;?>/public/assets/img/ao1.jpg')" class="product-img"></div>
                     </div>
                 </div>
             </div>

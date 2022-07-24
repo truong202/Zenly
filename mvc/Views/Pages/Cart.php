@@ -2,9 +2,9 @@
     <section class="section section-cart container">
         <h1 class="page-title">Giỏ hàng</h1>
         <div class="cart-empty">
-            <img src="assets/img/cart-empty.png" alt="" class="cart-empty-img">
+            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/cart-empty.png" alt="" class="cart-empty-img">
             <p>Không có sản phẩm nào trong giỏ hàng</p>
-            <a href="index.html" class="button button--primary">Tiếp tục mua hàng</a>
+            <a href="index" class="button button--primary">Tiếp tục mua hàng</a>
         </div>
         <div class="cart">
             <div class="cart-table-desktop">
@@ -25,7 +25,7 @@
                             <td>
                                 <div class="product-info">
                                     <a href="" class="product-link">
-                                        <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                                        <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                                         <span class="product-name">Quần kaki</span>
                                     </a>
                                 </div>

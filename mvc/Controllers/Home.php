@@ -7,9 +7,9 @@ class Home extends Controller
             'page' => 'Home'
         ]);
     }
-    public function Show($model)
+    public function Show()
     {
-        $md = $this->model($model);
+        $md = $this->model('HomeModel');
         echo $md->getInfo();
     }
 }

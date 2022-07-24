@@ -49,7 +49,7 @@
                 <div class="order-info">
                     <div class="product-list">
                         <div class="product">
-                            <img src="assets/img/ao7.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao7.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -59,7 +59,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                         <div class="product">
-                            <img src="assets/img/ao5.jpg" alt="" class="product-img">
+                            <img src="<?php echo _WEB_ROOT;?>/public/assets/img/ao5.jpg" alt="" class="product-img">
                             <div class="product-info">
                                 <div class="product-top">
                                     <span class="product-name">Quần kaki - Đen, L</span>

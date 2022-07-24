@@ -15,9 +15,9 @@ class App
             }
             unset($urlArr[0]);
         }
+
         require_once('./mvc/Controllers/' . $this->controller . '.php');
         $this->controller = new $this->controller;
-
         if (!empty($urlArr[1])) {
             $urlArr[1] = ucfirst($urlArr[1]);
             if (method_exists($this->controller, $urlArr[1])) {
