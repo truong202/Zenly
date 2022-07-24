@@ -1,0 +1,15 @@
+:root {
+  --header-top: 100px;
+  --header-bottom: 40px;
+  --header-height: calc(var(--header-top) - var(--header-bottom));
+}
+
+$primaryColor: #004dda;
+$secondaryColor: #ffc107;
+$textColor: #444;
+$redColor: #f33;
+$greenColor: #0c0;
+$textHeadingColor: #111;
+$headerTop: 100px;
+$headerBottom: 40px;
+$header: $headerTop + $headerBottom;

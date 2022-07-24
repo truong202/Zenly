@@ -1,0 +1,52 @@
+:root {
+  --header-top: 100px;
+  --header-bottom: 40px;
+  --header-height: calc(var(--header-top) - var(--header-bottom));
+}
+
+.section-login .page-title {
+  text-align: center;
+}
+
+.login-form .form-aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.login-form .form-aside .forgot-password a {
+  font-size: 1.4rem;
+  color: #777;
+  font-weight: 500;
+}
+.login-form .form-aside .forgot-password a:hover {
+  color: #004dda;
+}
+.login-form .form-social {
+  margin-top: 16px;
+}
+.login-form .form-social .title {
+  text-align: center;
+  margin-bottom: 12px;
+  color: #777;
+}
+.login-form .form-social .social-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.login-form .form-social .social-btn span {
+  flex: 1;
+  color: #fff;
+}
+.login-form .form-social .social-facebook {
+  background-color: #3b5998;
+}
+.login-form .form-social .social-google {
+  background-color: #dc4e41;
+}
+.login-form .form-social .social-icon {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,128 @@
+:root {
+  --header-top: 100px;
+  --header-bottom: 40px;
+  --header-height: calc(var(--header-top) - var(--header-bottom));
+}
+
+.section-cart .cart-empty {
+  text-align: center;
+  display: none;
+}
+.section-cart .cart-empty-img {
+  width: 180px;
+  height: auto;
+}
+.section-cart .cart-empty p {
+  margin: 10px 0;
+}
+.section-cart .cart .product:link {
+  display: inline-block;
+}
+.section-cart .cart .product-img {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+.section-cart .cart .product-name {
+  color: #444;
+  font-weight: 500;
+  font-size: 1.4rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  word-break: break-word;
+}
+.section-cart .cart .product-name:hover {
+  color: #004dda;
+}
+.section-cart .cart .total {
+  margin: 16px 0;
+  text-align: right;
+}
+.section-cart .cart .total strong {
+  color: #f33;
+}
+.section-cart .cart-table-desktop table {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.section-cart .cart-table-desktop table tr {
+  border-bottom: 1px solid #ccc;
+}
+.section-cart .cart-table-desktop table th,
+.section-cart .cart-table-desktop table td {
+  text-align: center;
+  padding: 12px;
+  border-right: 1px solid #ccc;
+}
+.section-cart .cart-table-desktop table th {
+  font-size: 1.6rem;
+  color: #111;
+  font-weight: 500;
+}
+.section-cart .cart-table-desktop table th:first-child {
+  width: 6%;
+}
+.section-cart .cart-table-desktop table th:nth-child(2) {
+  width: 35%;
+  max-width: 35%;
+}
+.section-cart .cart-table-desktop .product-info {
+  text-align: left;
+}
+.section-cart .cart-table-desktop .product-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.section-cart .cart-table-desktop .product-name {
+  margin-left: 12px;
+}
+.section-cart .cart-table-desktop .cart-delete-btn {
+  background-color: transparent;
+  font-size: 2rem;
+  color: #444;
+}
+.section-cart .cart-table-desktop .cart-delete-btn:hover {
+  color: #f33;
+}
+.section-cart .cart-table-mobile {
+  display: none;
+}
+.section-cart .cart-table-mobile .product-list {
+  border: 1px solid #ccc;
+}
+.section-cart .cart-table-mobile .product-list .product {
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  line-height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-size: 1.4rem;
+}
+.section-cart .cart-table-mobile .product-list .product-info {
+  margin-left: 12px;
+  width: 100%;
+}
+.section-cart .cart-table-mobile .product-list .product-price {
+  margin: 6px 0;
+}
+.section-cart .cart-table-mobile .product-list .product-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.section-cart .cart-table-mobile .product-list .product-delete-btn {
+  margin-right: 12px;
+  color: #f33;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=cart.css.map */

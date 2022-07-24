@@ -1,0 +1,51 @@
+@import "color", "mixins";
+
+.section-login {
+  .page-title {
+    text-align: center;
+  }
+}
+
+.login-form {
+  .form {
+    &-aside {
+      @include flexBox(flex, center, space-between);
+      .forgot-password {
+        a {
+          font-size: 1.4rem;
+          color: #777;
+          font-weight: 500;
+          &:hover {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+    &-social {
+      margin-top: 16px;
+      .title {
+        text-align: center;
+        margin-bottom: 12px;
+        color: #777;
+      }
+      .social-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        span {
+          flex: 1;
+          color: #fff;
+        }
+      }
+      .social-facebook {
+        background-color: #3b5998;
+      }
+      .social-google {
+        background-color: #dc4e41;
+      }
+      .social-icon {
+        font-size: 2.5rem;
+        color: #fff;
+      }
+    }
+  }
+}

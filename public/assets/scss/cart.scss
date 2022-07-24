@@ -1,0 +1,122 @@
+@import "color", "mixins";
+
+.section-cart {
+  .cart-empty {
+    text-align: center;
+    display: none;
+    &-img {
+      @include size(180px, auto);
+    }
+    p {
+      margin: 10px 0;
+    }
+  }
+
+  .cart {
+    .product {
+      &:link {
+        display: inline-block;
+      }
+      &-img {
+        @include size(60px);
+        border: 1px solid #ccc;
+        object-fit: cover;
+      }
+      &-name {
+        color: $textColor;
+        font-weight: 500;
+        font-size: 1.4rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        word-break: break-word;
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+    }
+    .total {
+      margin: 16px 0;
+      text-align: right;
+      strong {
+        color: $redColor;
+      }
+    }
+  }
+  .cart-table-desktop {
+    table {
+      width: 100%;
+      border: 1px solid #ccc;
+      tr {
+        border-bottom: 1px solid #ccc;
+      }
+      th,
+      td {
+        text-align: center;
+        padding: 12px;
+        border-right: 1px solid #ccc;
+      }
+      th {
+        font-size: 1.6rem;
+        color: $textHeadingColor;
+        font-weight: 500;
+        &:first-child {
+          width: 6%;
+        }
+        &:nth-child(2) {
+          width: 35%;
+          max-width: 35%;
+        }
+      }
+    }
+    .product {
+      &-info {
+        text-align: left;
+      }
+      &-link {
+        @include flexBox(flex, center);
+      }
+      &-name {
+        margin-left: 12px;
+      }
+    }
+    .cart-delete-btn {
+      background-color: transparent;
+      font-size: 2rem;
+      color: $textColor;
+      &:hover {
+        color: $redColor;
+      }
+    }
+  }
+  .cart-table-mobile {
+    display: none;
+    .product-list {
+      border: 1px solid #ccc;
+      .product {
+        border-bottom: 1px solid #ccc;
+        padding: 8px;
+        line-height: 1.4rem;
+        @include flexBox(flex, center);
+        font-size: 1.4rem;
+        &-info {
+          margin-left: 12px;
+          width: 100%;
+        }
+        &-price {
+          margin: 6px 0;
+        }
+        &-action {
+          @include flexBox(flex, center, space-between);
+        }
+        &-delete-btn {
+          margin-right: 12px;
+          color: $redColor;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

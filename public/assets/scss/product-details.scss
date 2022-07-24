@@ -1,0 +1,111 @@
+@import "color", "mixins";
+
+.section-product-details {
+  .list-img {
+    margin-top: 10px;
+    .nav-button {
+      @include size(25px);
+      background-color: transparent !important;
+      box-shadow: none !important;
+      font-size: 2.5rem;
+    }
+    .owl-prev {
+      left: 0;
+    }
+    .owl-next {
+      right: 0;
+    }
+  }
+  .product {
+    &-img,
+    &-img-main {
+      padding-top: 100%;
+      background: center / cover;
+    }
+    &-img {
+      border: 2px solid #fff;
+      &.active {
+        border-color: $primaryColor;
+      }
+    }
+    &-info {
+      padding: 0 20px;
+    }
+    &-name {
+      color: $textHeadingColor;
+      margin-bottom: 20px;
+    }
+    &-review {
+      @include flexBox(flex, center);
+      margin-bottom: 20px;
+    }
+    &-sold,
+    &-rating span {
+      font-size: 1.4rem;
+      color: #333;
+      margin-left: 10px;
+    }
+    &-sold {
+      margin-left: 20px;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        height: 16px;
+        width: 1px;
+        background-color: #afafaf;
+        display: block;
+        left: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    &-price {
+      padding: 12px 10px;
+      background-color: #ededed;
+      border-radius: 4px;
+      margin-bottom: 30px;
+      @include flexBox(flex, center);
+      .price-old {
+        color: #999;
+        margin-right: 12px;
+        font-size: 1.4rem;
+      }
+      .price-current {
+        color: $redColor;
+        font-size: 2.2rem;
+        font-weight: 700;
+      }
+    }
+    &-sale {
+      display: inline-block;
+      margin-left: 12px;
+      padding: 4px;
+      font-size: 1.4rem;
+      background-color: $greenColor;
+      color: #fff;
+      border-radius: 4px;
+    }
+  }
+  .section-info {
+    .product-desc {
+      text-align: justify;
+    }
+    margin-top: 25px;
+    label {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .list-item {
+      margin-right: -10px;
+      margin-bottom: -10px;
+      button {
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    .input-number-wrap {
+      margin-left: 20px;
+    }
+  }
+}
